@@ -78,14 +78,14 @@ else:
 #     url = "http://www.peno.be/",
 #     ...
 # )
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+#with open("README.md", "r") as fh:
+#    long_description = fh.read()
 
 setup(name = "pylpsolve3",
     version = "0.0.1",
     description = "Python 3 wrapper for lpsolve, see README.md for detail",
-    long_description = long_description,
-    long_description_content_type="text/markdown",
+    #long_description = long_description,
+    #long_description_content_type="text/markdown",
     author = "lewisxy",
     url = "https://github.com/lewisxy/pylpsolve3",
     classifiers = [
